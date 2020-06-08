@@ -208,9 +208,12 @@ h4 {
 .pleca-azul {
   background-color: var(--color-principal);
 }
-.pleca-azul p {
+.pleca-azul p,
+.pleca-azul a {
   margin: 0;
-  padding: 1.3rem 0 1.6rem 0;
+  padding: 1rem 0 1.2rem 0;
+  text-decoration: none;
+  color: #fff;
 }
 .top-bar {
   display: flex;
@@ -222,7 +225,7 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 1024px) {
+@media (max-width: 980px) {
   .info-contacto {
     flex-basis: 50%;
   }
@@ -247,13 +250,18 @@ h4 {
 }
 .mid-bar img {
   flex-basis: 25%;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 @media (max-width: 768px) {
   .mid-bar img {
     width: 50%;
   }
 }
+@media (max-width: 480px) {
+  .mid-bar img {
+    width: 75%;
+  }
+ }
 .mid-bar-container {
   display: flex;
   flex-basis: 60%;
@@ -264,6 +272,15 @@ h4 {
   .mid-bar-container {
     flex-basis: 70%;
   }
+}
+@media (max-width: 480px) {
+  .mid-bar-container {
+    font-size: 1.4rem;
+    font-stretch: condensed;
+  }
+}
+.info-contacto-ext p {
+  text-decoration: none;
 }
 .info-contacto-ext p:first-child {
   margin-bottom: 0;
@@ -277,11 +294,17 @@ h4 {
   display: flex;
   justify-content: flex-end;
 }
+.n-contenedor {
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  .navegacion {
+    display: block;
+  }
+ }
 .topnav {
   overflow: hidden;
-  background-color: #012661;
-  display: flex;
-  justify-content: flex-end;
+  background-color: var(--color-principal);
   line-height: normal;
 }
 .topnav a {
