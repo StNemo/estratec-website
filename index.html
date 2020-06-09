@@ -55,51 +55,53 @@
     </div> <!-- Linea media -->
 
     <div class="pleca-azul navegacion">
-      <div class="n-contenedor">
-        <div class="topnav" id="myTopnav">
-          <a href="#home" class="active">Inicio</a>
-          <div class="dropdown">
-              <button class="dropbtn">Productos y Servicios 
+      <div class="contenedor">
+        <div class="n-contenedor">
+          <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Inicio</a>
+            <div class="dropdown">
+                <button class="dropbtn">Productos y Servicios 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+              <div class="dropdown-content">
+                <a href="#">Impresoras y copiadoras</a>
+                <a href="#">Impresión comercial e industrial</a>
+                <a href="#">Proyectores</a>
+                <a href="#">Video conferencia</a>
+                <a href="#">Pantallas interactivas</a>
+                <a href="#">Acabado de documentos</a>
+                <a href="#">Consumibles y refacciones</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Soluciones 
                 <i class="fa fa-caret-down"></i>
               </button>
-            <div class="dropdown-content">
-              <a href="#">Impresoras y copiadoras</a>
-              <a href="#">Impresión comercial e industrial</a>
-              <a href="#">Proyectores</a>
-              <a href="#">Video conferencia</a>
-              <a href="#">Pantallas interactivas</a>
-              <a href="#">Acabado de documentos</a>
-              <a href="#">Consumibles y refacciones</a>
+              <div class="dropdown-content">
+                <a href="#">Movilidad y la nube</a>
+                <a href="#">Automatización de productos</a>
+                <a href="#">Gestión de comunicaciones del cliente</a>
+                <a href="#">Productividad en el lugar de trabajo</a>
+                <a href="#">Flujo de trabajo de documentos</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+              <button class="dropbtn">Industrias 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Educación superior</a>
+                <a href="#">Healthcare</a>
+                <a href="#">Servicios de TI</a>
+                <a href="#">Managed Document Services</a>
+              </div>
             </div>
-          </div>
-          <div class="dropdown">
-            <button class="dropbtn">Soluciones 
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Movilidad y la nube</a>
-              <a href="#">Automatización de productos</a>
-              <a href="#">Gestión de comunicaciones del cliente</a>
-              <a href="#">Productividad en el lugar de trabajo</a>
-              <a href="#">Flujo de trabajo de documentos</a>
-            </div>
-          </div> 
-          <div class="dropdown">
-            <button class="dropbtn">Industrias 
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Educación superior</a>
-              <a href="#">Healthcare</a>
-              <a href="#">Servicios de TI</a>
-              <a href="#">Managed Document Services</a>
-            </div>
-          </div>
-          <a href="#">Soporte</a>
-          <a href="#">Contacto</a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div> <!-- Navegación -->
-      </div> <!-- Pleca inferior -->
+            <a href="#">Soporte</a>
+            <a href="#">Contacto</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div> <!-- Navegación -->
+        </div> <!-- Pleca inferior -->
+      </div>
     </div>
   </header> <!-- Header -->
 
@@ -122,7 +124,7 @@
     <div class="cards">
       <div class="card">
         <img src="img/cards_industrias_index.jpg" alt="Industrias">
-        <div class="card-container">
+        <div class="card-contenedor">
           <h2 class="blue-text">Industrias</h2>
           <p>Conviértete en el Experto</p>
           <p>Utilice nuestros años de experiencia y soluciones probadas para revolucionar su trabajo.</p>
@@ -130,7 +132,7 @@
       </div>
       <div class="card">
         <img src="img/cards_productos_index.jpg" alt="Productos y Servicios">
-        <div class="card-container">
+        <div class="card-contenedor">
           <h2 class="blue-text">Productos y Servicios</h2>
           <p>Equipos que crecen contigo</p>
           <p>Mira nuestras impresoras, duplicadores digitales e impresoras/fotocopiadoras multifunción de alta calidad.</p>
@@ -138,7 +140,7 @@
       </div>
       <div class="card">
         <img src="img/cards_soluciones_index.jpg" alt="Soluciones">
-        <div class="card-container">
+        <div class="card-contenedor">
           <h2 class="blue-text">Soluciones</h2>
           <p>Haga que su trabajo cuente</p>
           <p>Desarrolle estrategias y herramientas para manejar el exceso de información.</p>
@@ -146,7 +148,7 @@
       </div>
       <div class="card">
         <img src="img/cards_soporte_index.jpg" alt="Soporte">
-        <div class="card-container">
+        <div class="card-contenedor">
           <h2 class="blue-text">Soporte</h2>
           <p>Atención a Clientes</p>
           <p>Reciba soporte a su manera, en cualquier momento.</p>
@@ -159,30 +161,31 @@
     <h2 class="titulo centrar-texto">La más alta calidad</h2>
     <p class="subtitulo">Contamos con 4 certificaciones ISO, cobertura nacional y la plantilla de técnicos más grande de la industria en México</p>
 
-    <div class="big-card">
-      <div class="bc-image">
-        <img src="img/logo_sig.svg" alt="Logo Sistemas Integrados de Gestión">
-      </div>
-      <div class="bc-p">
-        <p>Una norma <span class="fw-700">ISO</span> es un conjunto de estándares internacionales de calidad.
-        <span class="fw-700">Grupo Estratec</span> cuenta con 4 certificados <span class="fw-700">ISO: 
-        9001, 20000-1, 27001 y 37001</span></p>
-      </div>
-    </div>
     <div class="cards">
-      <div class="card">
-        <div class="card-container">
-          <img src="img/tecnicos.svg" alt="Imagen de Técnicos">
-          <p>Contamos con la fuerza de trabajo de campo mas grande y profesional de la industria.  Nuestros técnicos son parte de Estratec, no contratistas ocasionales, lo que nos ayuda a garantizar su respuesta, conocimiento y profesionalismo.</p>
+      <div class="big-card">
+        <div class="bc-image">
+          <img src="img/logo_sig.svg" alt="Logo Sistemas Integrados de Gestión">
+        </div>
+        <div class="bc-p">
+          <p>Una norma <span class="fw-700">ISO</span> es un conjunto de estándares internacionales de calidad.
+          <span class="fw-700">Grupo Estratec</span> cuenta con 4 certificados <span class="fw-700">ISO: 
+          9001, 20000-1, 27001 y 37001</span></p>
         </div>
       </div>
-      <div class="card">
-        <div class="card-container">
-          <img src="img/mapa_mexico.svg" alt="Mapa de México">
-          <p>Tenemos cobertura directa en todo el territorio nacional, tanto para venta de equipos, refacciones, consumibles, y por supuesto, la entrega de servicios.</p>
+
+        <div class="card">
+          <div class="card-contenedor">
+            <img src="img/tecnicos.svg" alt="Imagen de Técnicos">
+            <p>Contamos con la fuerza de trabajo de campo mas grande y profesional de la industria.  Nuestros técnicos son parte de Estratec, no contratistas ocasionales, lo que nos ayuda a garantizar su respuesta, conocimiento y profesionalismo.</p>
+          </div>
         </div>
-      </div>
-    </div>
+        <div class="card">
+          <div class="card-contenedor">
+            <img src="img/mapa_mexico.svg" alt="Mapa de México">
+            <p>Tenemos cobertura directa en todo el territorio nacional, tanto para venta de equipos, refacciones, consumibles, y por supuesto, la entrega de servicios.</p>
+          </div>
+        </div>
+  </div>
   </section> <!-- Main features -->
 
   <section class="app">
@@ -195,7 +198,7 @@
             <img src="img/google_play.svg" alt="Logo google Play">
           </div>  
         </div>
-        <div class="app-r">
+        <div class="app-r hide">
           <img src="img/iphone.png" alt="iphone">
         </div>
       </div>
@@ -213,7 +216,7 @@
   </section> <!-- Newsletter -->
 
   <footer class="footer">
-    <div class="contenedor">
+    <div class="footer-contenedor contenedor">
       <div class="info-estratec">
         <img src="img/logo_estratec_blanco.svg" alt="Logo Estratec">
         <p>Estratec con más de 30 años de experiencia integrando soluciones de Clase Mundial en el manejo de documentos</p>
