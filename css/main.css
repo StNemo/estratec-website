@@ -252,6 +252,11 @@ h4 {
   flex-basis: 25%;
   margin: 1rem auto;
 }
+@media (max-width: 1024px) {
+  .mid-bar img {
+    width: 50%;
+  }
+}
 @media (max-width: 768px) {
   .mid-bar img {
     width: 50%;
@@ -727,11 +732,13 @@ footer select {
   border: none;
 }
 footer .boton {
+  background-color: #fff;
   color: var(--color-principal);
   margin-top: 0rem;
 }
 footer .boton:hover {
   background-color: lightsteelblue;
+  cursor: pointer;
 }
 .avisos {
   display: flex;
@@ -741,6 +748,7 @@ footer .boton:hover {
 @media (max-width: 480px) {
   .avisos ul {
     padding: 0;
+    margin: 0;
   }
 }
 .avisos li {
